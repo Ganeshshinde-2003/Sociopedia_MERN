@@ -1,4 +1,4 @@
-import User from "../models/User";
+import User from "../models/User.js";
 
 // READ
 export const getUser = async (req, res) => {
@@ -11,7 +11,7 @@ export const getUser = async (req, res) => {
     } catch (err) {
         res.status(404).json({ message: err.message });
     }
-}
+} 
 
 export const getUserFriends = async (req, res) => {
     try {
@@ -34,7 +34,7 @@ export const getUserFriends = async (req, res) => {
 
 //UPDATE
 
-export const addRemoveFriend = async (req,res) => {
+export const addRemoveFriends = async (req,res) => {
     try {
         const { id, friednsId } = req.params;
         const user = await User.findById(id);
