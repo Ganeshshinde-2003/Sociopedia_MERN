@@ -36,3 +36,42 @@ To get a local copy of the Sociopedia project up and running, follow these steps
 ## Prerequisites 📋
 - Node.js (version 12 or above) and npm (Node Package Manager) must be installed on your system.
 - MongoDB should be installed and running locally or provide a connection URL to a remote MongoDB instance.
+
+## Installation 💻
+- Clone the repository:
+
+      git clone https://github.com/your-username/sociopedia.git
+    
+- Install the dependencies in both the client-side and server-side directories:
+
+      cd sociopedia/client
+      npm install
+
+      cd ../server
+      npm install
+
+- Configuration ⚙️
+
+Create a .env file in the server directory and provide the necessary environment variables, such as the MongoDB connection URL and the desired port number:
+
+      MONGO_URL=your_mongodb_connection_url
+      PORT=3001
+
+- Starting the Application ▶️
+
+Start the server:
+
+      cd ../server
+      npm start
+
+Start the client:
+
+      cd ../client
+      nodemon index.js
+
+- Access the application 🌍
+
+Open your web browser and visit `http://localhost:3000` to access the Sociop
+
+
+
