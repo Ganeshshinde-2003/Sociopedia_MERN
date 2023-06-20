@@ -3,6 +3,8 @@ Sociopedia is a social media web application built using the MERN (MongoDB, Expr
 
 ## Sociopedia on Live
 
+https://github.com/Ganeshshinde-2003/Sociopedia_MERN/assets/115361691/0b7df291-b2e0-4000-9cf3-379fc77260ee
+
 ## Features ✨
 - *User Registration* 📝: Users can create an account by providing their information and uploading a profile picture.
 - *User Authentication* 🔒: Secure authentication is implemented using JSON Web Tokens (JWT) to ensure authorized access to protected routes.
